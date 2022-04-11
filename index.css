@@ -1,10 +1,51 @@
-body{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-family: Helvetica;
+body {
+  background-color: cornflowerblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Helvetica;
 }
 
 .title {
-    font-size: 46pt;
+  background-color: whitesmoke;
+  font-size: 46pt;
+  border-style: solid;
+  border-radius: 20px;
+  padding: 20px;
+  width: 50%;
+  text-align: center;
+}
+
+.main {
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Helvetica;
+  border-style: solid;
+  border-radius: 25px;
+  padding: 20px;
+  width: 50%;
+}
+
+a:visited {
+  color: dimgray;
+}
+
+a {
+  color: black;
+}
+
+.navlink {
+  padding: 0px 50px;
+}
+
+.nav {
+  font-size: x-large;
+  background-color: whitesmoke;
+  text-align: center;
+  border-style: solid;
+  width: 50%;
+  border-radius: 20px;
+  padding: 20px;
 }
