@@ -32,12 +32,10 @@ a:visited {
   color: dimgray;
 }
 
-a {
+.nav a {
   color: black;
-}
-
-.navlink {
-  padding: 0px 50px;
+  padding: 0px 5% 0px 5%;
+  display: inline;
 }
 
 .nav {
@@ -46,6 +44,14 @@ a {
   text-align: center;
   border-style: solid;
   width: 50%;
+
   border-radius: 20px;
   padding: 20px;
+  display: block;
+}
+
+@media screen and (max-width: 700px) {
+  .nav a {
+    display: block;
+  }
 }
