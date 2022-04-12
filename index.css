@@ -11,9 +11,11 @@ body {
   font-size: 2em;
   border-style: solid;
   border-radius: 20px;
-  padding: 20px;
-  width: 50%;
+  padding: 10px 0px 10px 0px;
+  width: 100%;
   text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .main {
@@ -24,8 +26,8 @@ body {
   font-family: Helvetica;
   border-style: solid;
   border-radius: 25px;
-  padding: 20px 20px 20px 20px;
-  width: 50%;
+  padding: 0px 0px 0px 0px;
+  width: 100%;
 }
 
 a:visited {
@@ -43,10 +45,11 @@ a:visited {
   background-color: whitesmoke;
   text-align: center;
   border-style: solid;
-  width: 50%;
+  width: 100%;
+  padding: 0px 0px 0px 0px;
 
   border-radius: 20px;
-  padding: 20px;
+
   display: block;
 }
 
@@ -68,4 +71,7 @@ li {
 
 img {
   width: 300px;
+}
+p {
+  padding: 10px;
 }
